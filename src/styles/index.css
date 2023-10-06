@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: nunito;
+    src: url('/public/fonts/nunito.ttf');
+}
+
+html {
+    font-family: nunito;
+    color: #b0bac5;
+    background-color: #16181c;
+}
