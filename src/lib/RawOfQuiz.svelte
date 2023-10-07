@@ -48,7 +48,7 @@ button.left, button.right {
     height:30px;
     
     /* ui */
-    background-color: #26292f;
+    background-color: var(--cardColor);
     aspect-ratio: 1/1;
     border-radius: 360% ;
     transition: 0.1s;

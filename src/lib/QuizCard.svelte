@@ -25,9 +25,9 @@ export let tags: ITag[];
 
 <style>
 .quizCard {
-    background-color: #26292f;
+    background-color: var(--cardColor);
     border-radius: 16px;
-    box-shadow: 0px 2px 4px 0 #0000005A;
+    box-shadow: 0px 2px 4px 0 var(--shadow);
     padding:16px;
     display: grid;
     grid-template-rows: 30px 1fr 22px ;

@@ -3,6 +3,8 @@ import { invoke } from '@tauri-apps/api'
 
 import Home from "./pages/Home.svelte";
 import Quiz from "./pages/Quiz.svelte";
+import Catalog from "./pages/Catalog.svelte";
+import MenuBar from "./lib/MenuBar.svelte";
 import SearchBar from "./lib/SearchBar.svelte";
 
 let page = "Home"
@@ -10,19 +12,22 @@ let page = "Home"
 </script>
 
 <header>
-	<h1>Mon Application</h1>
-	<SearchBar />
-	<a on:click={() => page="Home"}>Home</a>
-	<a on:click={() => page="Quiz"}>Quiz</a>
+	<h1>Mon Application - {page}</h1>
 </header>
 
 <main>
 	{#if page == "Home"}
-		<Home/>
+	<Home/>
 	{:else if page == "Quiz"}
-		<Quiz/>
+	<Quiz/>
+	{:else if page == "Catalog"}
+	<Catalog/>
 	{/if}
 </main>
+
+<SearchBar />
+
+<MenuBar bind:page={page}></MenuBar>
 
 <style>
 
@@ -35,7 +40,7 @@ h1 {
 
 main {
 	margin: auto;
-	width: clamp(0px, 100%, 1012px);
+	width: clamp(0px, calc( 100% - 16px ), 1012px);
 	overflow: hidden;
 }
 </style>
