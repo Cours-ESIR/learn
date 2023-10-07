@@ -47,13 +47,9 @@
     ];
 </script>
 
-
 <div>
-
     <GridOfQuiz quizzes={testQuiz}></GridOfQuiz>
-
 </div>
 
 <style>
-
 </style>

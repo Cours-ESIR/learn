@@ -1,5 +1,3 @@
-
-
 <div>
     <h2>De quel nationalité sont ceux qui ne savent pas placer la France sur une carte ?</h2>    
     <div class="answer">  
@@ -8,26 +6,33 @@
         <button>Japonais</button>
         <button>Américains</button>
     </div>  
-
 </div>
 
 <style>
 
-.answer {
-    display : grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap:8px;
-}
+    .answer {
+        /* layout */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
 
-.answer > * {
-    all:unset;
-    text-align: center;
-    background-color: var(--cardColor);
-    flex:50px;
-    height: 50px;
-}
+        /* spacing */
+        gap: 8px;
+    }
 
+    .answer > * {
+        /* reset */
+        all: unset;
 
+        /* layout */
+        flex: 50px;
+        text-align: center;
+
+        /* sizing */
+        height: 50px;
+
+        /* ui */
+        background-color: var(--cardColor);
+    }
 
 </style>
