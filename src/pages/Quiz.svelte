@@ -23,7 +23,7 @@
 .answer > * {
     all:unset;
     text-align: center;
-    background-color: #26292f;
+    background-color: var(--cardColor);
     flex:50px;
     height: 50px;
 }

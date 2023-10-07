@@ -1,5 +1,14 @@
-* {
+html,body,h1,h2,h3,h4,h5,h6,p {
     margin: 0;
+}
+
+:root {
+    --backgroundColor: #16181c;
+    --textColor: #b0bac5;
+    --fontFamily: nunito;
+    --cardColor:#26292f;
+    --action: #5A8DEE;
+    --shadow: #0000005A;
 }
 
 @font-face {
@@ -8,7 +17,7 @@
 }
 
 html {
-    font-family: nunito;
-    color: #b0bac5;
-    background-color: #16181c;
+    font-family: var(--fontFamily);
+    color: var(--textColor);
+    background-color: var(--backgroundColor);
 }
