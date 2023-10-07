@@ -50,18 +50,9 @@ let testQuiz: IQuiz[] = [
 </script>
 
 <div id="myQuiz">
-    <h2>Mes Créations</h2>
-    <RawOfQuiz quizzes={testQuiz} />
+    <RawOfQuiz title="Mes Créations" quizzes={testQuiz} />
 </div>
 
 <div id="othersQuiz">
-    <h2>Mes Favoris</h2>
-    <RawOfQuiz quizzes={testQuiz} />
+    <RawOfQuiz title="Mes Favoris" quizzes={testQuiz} />
 </div>
-
-<style>
-	h2 {
-	margin-top: 16px;
-	margin-left:40px;
-}
-</style>
