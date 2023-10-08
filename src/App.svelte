@@ -64,7 +64,7 @@
 	}
 
 	.menuBar {
-		width: 150px;
+		width: 230px;
 		height:100%;
 		overflow:hidden;
 		border-radius: 8px;
