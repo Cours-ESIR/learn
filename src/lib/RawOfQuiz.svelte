@@ -73,11 +73,12 @@
 		/* layout */
 		display: grid;
 		grid-auto-flow: column;
-		grid-auto-columns: 300px;
+		grid-auto-columns: 297px;
 		grid-template-rows: 160px;
+		padding: 4px;
 
 		/* sizing */
-		width: 100%;
+		width: calc( 100% - 8px );
 
 		/* spacing */
 		gap: 16px;

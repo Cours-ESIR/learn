@@ -8,13 +8,25 @@ html, body, h1, h2, h3, h4, h5, h6, p {
 }
 
 :root {
-	--backgroundColor:	#16181c;
-	--textColor:		#b0bac5;
-	--cardColor:		#26292f;
-	--action: 			#5A8DEE;
-	--shadow:			#0000005A;
+	--backgroundColor:	#16181d;
+	--cardColor:		#262a31;
+	--textColor:		#b2b7c2;
+	--action: 			#5e8eed;
+	--shadow:			#00000059;
 
 	--fontFamily: nunito;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--backgroundColor:	#f6f7f8;
+		--cardColor:		#e2e4e9;
+		--textColor:		#1d2025;
+		--action: 			#8caef2;
+		--shadow:			#00000059;
+	
+		--fontFamily: nunito;
+	}
 }
 
 html {
