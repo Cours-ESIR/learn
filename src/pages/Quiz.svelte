@@ -9,7 +9,7 @@
         {"question" : "Quel est la traduction de 'la paie' en anglais", "answer" : "the wage"},
         {"question" : "Quel est la traduction de 'l'inscription' en anglais", "answer" : "the enrollment"},
         {"question" : "Quel est la traduction de 'avoir les moyens' en anglais", "answer" : "to afford"},
-        {"question" : "Quel est la traduction de 'prendre pour aquis' en anglais", "answer" : "take it for granted"},
+        {"question" : "Quel est la traduction de 'prendre pour acquis' en anglais", "answer" : "take it for granted"},
         {"question" : "Quel est la traduction de 'abandonner' en anglais", "answer" : "to drop out"},
         {"question" : "Quel est la traduction de 'le minimum syndicale' en anglais", "answer" : "the bare minimum"},
     ]
