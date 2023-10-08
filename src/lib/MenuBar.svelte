@@ -53,7 +53,7 @@
         place-items: center;
         height: 60px;
         flex-direction: row;
-        padding: 4px 8px;
+        padding: 4px 16px;
         gap: 8px;
 
 		/* ui */
@@ -66,7 +66,7 @@
 		flex: auto;
 	}
 	
-	nav > .menuItem:hover * {
+	nav > .menuItem:hover {
 		/* ui */
 		border-color: var(--action);
 		color: var(--action);
